@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Healthy Bangladesh</string>
+    <string name="welcome_info">বাংলাদেশের বেশিরভাগ গুরুতর অপুষ্টি সমস্যাগুলির মধ্যে রয়েছে। বর্তমান প্রতি মাথাপিছু খাদ্য গ্রহণের হার ১৮৫০ কিলো ক্যালরি যা কোনও মান দ্বারা হয়। দারিদ্র্যের অভিসৃতি, অসম খাবার বিতরণ, রোগ, নিরক্ষরতা, দ্রুত জনসংখ্যা বৃদ্ধি এবং পরিবেশগত ঝুঁকি, সাংস্কৃতিক এবং সামাজিক অবিচার দ্বারা আবদ্ধতার ফলে অপুষ্টি ঘটে থাকে। এটি ঘটে থাকে মূলত ভূমিহীন কৃষক শ্রমিকের পরিবার এবং ক্ষুদ্র অংশীদার কৃষকদের মধ্যে।</string>
+    <string name="text_yoga">Yoga</string>
+    <string name="text_lifestyle">Lifestyle</string>
+    <string name="text_food">Food</string>
+    <string name="text_finance">Finance</string>
+    <string name="button_prev">Prev</string>
+    <string name="button_next">Next</string>>
+</resources>

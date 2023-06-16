@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/b01"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:id="@+id/scrollViewMA"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.01">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/welcome_info_background"
+            android:orientation="vertical"
+            android:padding="@dimen/welcome_info_layout_padding">
+
+            <TextView
+                android:id="@+id/textViewWelcomeInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/welcome_info_background"
+                android:justificationMode="inter_word"
+                android:text="@string/welcome_info"
+                android:textColor="@color/welcome_info_text"
+                android:textSize="16sp"
+                app:lineHeight="22dp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/buttonFinance"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/finance_button_color"
+        android:fontFamily="@font/roboto_medium"
+        android:text="@string/text_finance"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/buttonFood"
+        app:layout_constraintTop_toBottomOf="@+id/buttonLifestyle"
+        app:layout_constraintVertical_bias="0.078" />
+
+    <Button
+        android:id="@+id/buttonFood"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/food_button_color"
+        android:fontFamily="@font/roboto_medium"
+        android:text="@string/text_food"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/buttonFinance"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonYoga"
+        app:layout_constraintVertical_bias="0.078" />
+
+    <Button
+        android:id="@+id/buttonLifestyle"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="@color/lifestyle_button_color"
+        android:fontFamily="@font/roboto_medium"
+        android:text="@string/text_lifestyle"
+        android:textColor="@color/welcome_info_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/buttonYoga"
+        app:layout_constraintTop_toBottomOf="@+id/scrollViewMA" />
+
+    <Button
+        android:id="@+id/buttonYoga"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="@color/yoga_button_color"
+        android:fontFamily="@font/roboto_medium"
+        android:text="@string/text_yoga"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toStartOf="@+id/buttonLifestyle"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollViewMA" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

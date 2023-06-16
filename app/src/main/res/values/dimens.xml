@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="welcome_info_layout_padding">12dp</dimen>
+    <dimen name="welcome_info_layout_elevation">8dp</dimen>
+    <dimen name="out_of_end_padding">12dp</dimen>
+    <dimen name="out_of_top_bottom_padding">6dp</dimen>
+</resources>

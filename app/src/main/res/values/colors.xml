@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- other colors -->
+    <color name="welcome_info_background">#fff8f0</color>
+    <color name="welcome_info_text">#1e1e24</color>
+
+    <!-- app title bar colors -->
+    <color name="title_bar_background_color">#C0E8F9</color>
+    <color name="title_bar_text_color">#1a281f</color>
+
+
+    <color name="yoga_button_color">#006c67</color>
+    <color name="lifestyle_button_color">#540d6e</color>
+    <color name="food_button_color">#0d21a1</color>
+    <color name="finance_button_color">#b6244f</color>
+
+    <color name="next_prev_button_color">#02182b</color>
+</resources>
